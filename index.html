@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: auto;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0074D9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 5px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Your Name</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#humor">Humor</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My World</h1>
+            <p>Exploring Creativity, Humor, and Culture</p>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm passionate about creativity and culture. I'm involved with Camp Mechaya, where I help foster Jewish cultural experiences. I also enjoy discovering unique aspects of music, particularly bands with women in their logos. My projects often blend humor and history, such as my work on a play and a game show.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="content">
+        <div class="container">
+            <h2>Projects</h2>
+            <p><strong>Play:</strong> A historical drama set in Mexico City, exploring the story of a Jewish baby kidnapped during the Spanish Inquisition.</p>
+            <p><strong>Game Show:</strong> A fun and engaging show filled with music and sound effects, designed to entertain and challenge participants.</p>
+        </div>
+    </section>
+
+    <section id="humor" class="content">
+        <div class="container">
+            <h2>Humor</h2>
+            <p>I love a good joke! Here are some of my favorites:</p>
+            <ul>
+                <li>Three men and a genie on a desert island...</li>
+                <li>A man orders three pints of beer for his brothers...</li>
+                <li>Genie offers to build a bridge to Hawaii...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please feel free to reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a> or fill out the form below:</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
